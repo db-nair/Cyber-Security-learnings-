@@ -1,0 +1,3 @@
+ Gobuster will take a list of potential page or directory names and try accessing a website with each of them; if the page exists, it tells you.
+command: gobuster -u http://fakebank.thm -w wordlist.txt dir
+In the command above, -u is used to state the website we're  scanning, -w takes a list of words to iterate through to find hidden pages.
